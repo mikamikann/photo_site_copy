@@ -1,0 +1,206 @@
+body{
+  margin: 0;
+}
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+#header h1{
+  text-align: left;
+}
+#header img{
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 60px;
+}
+#header h1{
+  font-size: 24px;
+  font-weight: normal;
+  margin: 50px 0 5px 10px;
+}
+/*-------------------------------------------
+インデックス
+-------------------------------------------*/
+#index{
+  width: 760px;
+  width: 92%;
+  background: rgb(243, 242, 242);
+  padding: 20px 0 35px;
+  margin: 0 auto;
+}
+#index h2{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  border: 1px solid #333;
+}
+#index ol{
+  margin-right: 30px;
+}
+#index li{
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/*-------------------------------------------
+写真
+-------------------------------------------*/
+#pic{
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+#pic img{
+  width: 92%;
+  max-width: 680px;
+  margin: 5px auto;
+  padding: 0;
+}
+
+/*-------------------------------------------
+ディテール
+-------------------------------------------*/
+#detail{
+  background: rgb(243, 242, 242);
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-size: 16px;
+}
+#detail h2{
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+#info{
+  border-bottom: 1px solid #333;
+  margin: 50px 0;
+  padding-bottom: 30px;
+}
+#info p{
+  margin: 0;
+  margin-bottom: 10px;
+}
+#info h3{
+  font-size: 16px;
+  margin: 0;
+}
+#text a{
+  color: #333;
+  margin-left: 30px;
+}
+footer{
+  font-size: 11px;
+  text-align: center;
+  margin: 100px auto 20px auto;
+}
+
+
+/*-------------------------------------------
+PC用スタイル
+-------------------------------------------*/
+@media(min-width:1050px){
+#header{
+  width: 100%;
+  margin: 0 auto;
+}
+#header h1{
+  font-size: 30px;
+  margin: 50px 0 5px 0;
+}
+#header img{
+  max-width: 1500px;
+  max-height: 500px;
+  margin-bottom: 60px;
+}
+
+#index{
+  width: 960px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+#index h2{
+  font-size: 26px;
+}
+#index ol{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#index li{
+  font-size: 20px;
+  margin: 0;
+  line-height: 3em;
+}
+#content{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.item{
+  width: 860px;
+  display: grid;
+  grid-template-columns: 465px 465px;
+  grid-template-rows: 250px 250px;
+  gap: 20px 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto;
+}
+#pic img{
+  width: 465px;
+  margin: 0;
+  height: 250px;
+  align-items: center;
+}
+
+
+#detail{
+  background: rgb(235, 233, 233);
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+}
+#detail h2{
+  margin: 0;
+}
+.container{
+  align-self: center;
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+#text{
+  padding: 0px 50px;
+  margin: 20px;
+  width: 60%;
+  border-left: 1px solid #333;
+}
+#text p,
+#text a{
+  margin: 10px;
+}
+#info{
+  padding: 0 30px;
+  width: 40%;
+  margin: 20px;
+  border-bottom: none;
+}
+#info h3,
+#info p{
+  margin: 0;
+}
+}
+
